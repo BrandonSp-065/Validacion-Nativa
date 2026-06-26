@@ -1,0 +1,28 @@
+.user, .edad, .pais {
+    padding-right: 40px;
+    background-repeat: no-repeat; 
+    background-position: right 10px center; 
+    background-size: 20px 20px;
+}
+.user:focus:invalid, 
+.pais:focus:invalid, 
+.edad:focus:invalid {
+    background-color: #ffffff;
+    border: 2px solid #e63946; 
+    outline: none;
+    background-image: url('images/2.png');
+}
+
+.user:valid, 
+.edad:valid {
+    border: 2px solid #2fc71b; 
+    background-color: #ffffff;
+    background-image: url('images/1.png');
+}
+
+
+.pais:valid {
+    border: 2px solid #2fc71b; 
+    background-color: #f4fef9;
+    background-image: url('images/1.png');
+}
